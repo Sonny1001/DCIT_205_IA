@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 400px;
+    height: 100px;
+    background-color: white;
+}
+
+.faq {
+    margin-top: 100px;
+    background-color: rgb(22, 41, 41);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.question-bar {
+    position: relative;
+    left: 300px;
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    font-size: 25px;
+}
+
+.logo {
+    display:flex ;
+    flex: 100px;
+    height: 60px;
+    background-color: none;
+    width: 900px;
+    margin-right: 90px;
+
+}
+
+.home {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+   
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: none;
+   
+}
+
+
+.about {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.catalog {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.resources {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.ug-logo {
+    width: 250px;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+}
+
+span {
+    color: black;
+    transition: color 0.4s;
+}
+span:hover {
+    color: rgb(226, 175, 79);
+}
+
+
+.faq-pic {
+    width: 200px;
+}
+.div-faq-pic {
+    position: relative;
+    left: 500px;
+}
+
+.frequent {
+    position: relative;
+    left: 480px;
+}
