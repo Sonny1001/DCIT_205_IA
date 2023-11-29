@@ -1,13 +1,3 @@
-h3 {
-    color: white;
-}
-h1 {
-    color: rgb(84, 84, 201);
-}
-h2 {
-    color: rgb(22, 22, 91);
-}
-
 span {
     color: black;
     transition: color 0.4s;
@@ -110,11 +100,12 @@ a:hover {
     background-color: rgb(104, 94, 94);
     display: inline-block;
     position: relative;
-    left: 300px;
+    left: 450px;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 50px;
     padding-bottom: 50px;
+    margin-bottom: 100px;
 }
 .insight {
     text-align: center;
@@ -123,99 +114,18 @@ a:hover {
     color: white;
 }
 
-
-.programmes {
-    margin-bottom: 100px;
-    margin-top: 100px;
-}
-
-.div-short-courses {
-    display: inline-block;
-    width: 340px;
-    margin-left: 20px;
-    position: relative;
-}
-
-.short-courses {
-    background-color: rgb(163, 127, 55);
-    color: white;
-}
-
-.body-short-courses {
-    color: rgb(28, 28, 126);
-}
-
-.readmore {
-    color: rgb(234, 183, 90);
-    transition: color 0.4s;
-}
-.readmore:hover {
-    color:brown;
-}
-
-.div-under-prog {
-    display: inline-block;
-    width: 300px;
-    margin-top: 0;
-}
-.under-prog {
-    background-color: rgb(163, 127, 55);
-    color: white;
-}
-
-.body-under-prog {
-    color: rgb(28, 28, 126);
-}
-
-.div-phd {
-    display: inline-block;
-    width: 300px;
-}
-
-.phd {
-    background-color: rgb(163, 127, 55);
-    color: white;
-}
-
-.body-phd {
-    color: rgb(28, 28, 126);
-}
-
-.div-mphil {
-    display: inline-block;
-    width: 300px;
-}
-.mphil {
-    background-color: rgb(163, 127, 55);
-    color: white;
-}
-
-.body-mphil {
-    color: rgb(28, 28, 126);
-}
-
-.para {
+.all {
     display: flex;
-    margin-bottom: 100px;
+    background-color: aliceblue;
 }
 
-.mphil-image {
-    width: 500px;
-    margin-right: 100px;
-    margin-left: 30px;
-}
-
-.mphil1 {
-    margin-right: 30px;
-}
-
-.msc {
-    display: flex;
-}
-
-.mphil2 {
-    margin-left: 30px;
+.uni {
+    margin-left: 200px;
     margin-right: 500px;
+}
+
+input {
+    font-size: 30px;
 }
 
 

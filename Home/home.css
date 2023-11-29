@@ -1,12 +1,6 @@
 h3 {
     color: white;
 }
-h1 {
-    color: rgb(84, 84, 201);
-}
-h2 {
-    color: rgb(22, 22, 91);
-}
 
 span {
     color: black;
@@ -19,7 +13,7 @@ span:hover {
 body{
     margin: 0;
     padding: 0;
-    
+    background-color: aliceblue;
 }
 .header {
     display: flex;
@@ -42,24 +36,6 @@ body{
     width: 900px;
     margin-right: 90px;
 
-}
-
-a {
-    text-decoration: none;
-    color: rgb(234, 183, 90);
-    font-size: 20px;
-    transition: color 0.4s;
-}
-a:hover {
-    color: brown;
-}
-
-.ug-logo {
-    width: 250px;
-    display: inline-block;
-}
-.logo {
-    display: inline-block;
 }
 
 .home {
@@ -105,28 +81,43 @@ a:hover {
     background-color: none;
 }
 
-.div-insight {
-    margin-top: 100px;
-    background-color: rgb(104, 94, 94);
-    display: inline-block;
-    position: relative;
-    left: 300px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.insight {
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    color: white;
+.gateway {
+   
+    top: 240px;
+    font-size: 50px;
+    color: rgb(183, 159, 159);
 }
 
+a {
+    text-decoration: none;
+    color: rgb(234, 183, 90);
+    font-size: 20px;
+    transition: color 0.4s;
+}
+a:hover {
+    color: brown;
+}
+
+.ug-logo {
+    width: 250px;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.options {
+    display: inline-block;
+}
 
 .programmes {
     margin-bottom: 100px;
-    margin-top: 100px;
 }
 
 .div-short-courses {
@@ -194,31 +185,35 @@ a:hover {
     color: rgb(28, 28, 126);
 }
 
-.para {
-    display: flex;
-    margin-bottom: 100px;
+.department-class {
+    text-align: center;
+    margin-bottom: 80px;
 }
 
-.mphil-image {
-    width: 500px;
-    margin-right: 100px;
-    margin-left: 30px;
+.department-class-image {
+    width: 390px;
 }
 
-.mphil1 {
-    margin-right: 30px;
-}
-
-.msc {
-    display: flex;
-}
-
-.mphil2 {
-    margin-left: 30px;
-    margin-right: 500px;
+.sub-paragraph {
+    text-align: center;
 }
 
 
+.webdev-image {
+    width: 300px;
+}
+
+.cybersecurity-image {
+    width: 300px;
+}
+
+.computernet-image {
+    width: 300px;
+}
+
+.mobile-image {
+    width: 300px;
+}
 .bottom-container {
     display: flex;
     background-color: rgb(46, 95, 163);
