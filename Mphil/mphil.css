@@ -1,0 +1,219 @@
+h3 {
+    color: white;
+}
+h1 {
+    color: rgb(84, 84, 201);
+}
+h2 {
+    color: rgb(22, 22, 91);
+}
+
+span {
+    color: black;
+    transition: color 0.4s;
+}
+span:hover {
+    color: rgb(226, 175, 79);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 400px;
+    height: 100px;
+    background-color: white;
+}
+
+.logo {
+    display:flex ;
+    flex: 100px;
+    height: 60px;
+    background-color: none;
+    width: 900px;
+    margin-right: 90px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(234, 183, 90);
+    font-size: 20px;
+    transition: color 0.4s;
+}
+a:hover {
+    color: brown;
+}
+
+.ug-logo {
+    width: 250px;
+    display: inline-block;
+}
+.logo {
+    display: inline-block;
+}
+
+.home {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+   
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color: none;
+   
+}
+
+
+.about {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.catalog {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.resources {
+    display: flex;
+    flex: 100px;
+    height: 60px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: none;
+}
+
+.div-insight {
+    margin-top: 100px;
+    background-color: rgb(104, 94, 94);
+    display: inline-block;
+    position: relative;
+    left: 300px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.insight {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: white;
+}
+
+
+.programmes {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.div-short-courses {
+    display: inline-block;
+    width: 340px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.short-courses {
+    background-color: rgb(163, 127, 55);
+    color: white;
+}
+
+.body-short-courses {
+    color: rgb(28, 28, 126);
+}
+
+.readmore {
+    color: rgb(234, 183, 90);
+    transition: color 0.4s;
+}
+.readmore:hover {
+    color:brown;
+}
+
+.div-under-prog {
+    display: inline-block;
+    width: 300px;
+    margin-top: 0;
+}
+.under-prog {
+    background-color: rgb(163, 127, 55);
+    color: white;
+}
+
+.body-under-prog {
+    color: rgb(28, 28, 126);
+}
+
+.div-phd {
+    display: inline-block;
+    width: 300px;
+}
+
+.phd {
+    background-color: rgb(163, 127, 55);
+    color: white;
+}
+
+.body-phd {
+    color: rgb(28, 28, 126);
+}
+
+.div-mphil {
+    display: inline-block;
+    width: 300px;
+}
+.mphil {
+    background-color: rgb(163, 127, 55);
+    color: white;
+}
+
+.body-mphil {
+    color: rgb(28, 28, 126);
+}
+
+.para {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.mphil-image {
+    width: 500px;
+    margin-right: 100px;
+    margin-left: 30px;
+}
+
+.mphil1 {
+    margin-right: 30px;
+}
+
+.msc {
+    display: flex;
+}
+
+.mphil2 {
+    margin-left: 30px;
+    margin-right: 500px;
+}
